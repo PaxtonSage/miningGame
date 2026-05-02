@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bfh1vww3kdmtn"]
+
+[ext_resource type="Script" uid="uid://dke57ssubhvgo" path="res://scripts/guy.gd" id="1_6b1ya"]
+[ext_resource type="Texture2D" uid="uid://cbbk7ol5e83ag" path="res://color sprite/curcle.svg" id="1_lwmn2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ihqf1"]
+radius = 256.0
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1039835357]
+script = ExtResource("1_6b1ya")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=348191628]
+shape = SubResource("CircleShape2D_ihqf1")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1575453360]
+texture = ExtResource("1_lwmn2")
