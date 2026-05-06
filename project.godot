@@ -16,7 +16,6 @@ config/features=PackedStringArray("4.6", "GL Compatibility")
 
 [display]
 
-window/size/borderless=true
 window/stretch/scale=4.0
 
 [input]
