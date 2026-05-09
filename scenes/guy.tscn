@@ -7,6 +7,8 @@
 radius = 256.0
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=1039835357]
+floor_stop_on_slope = false
+floor_block_on_wall = false
 script = ExtResource("1_6b1ya")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=348191628]

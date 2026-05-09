@@ -1,6 +1,0 @@
-extends Camera2D
-
-
-func _process(delta: float) -> void:
-	position = position - (position - $"../manh".position)/1000
-	
